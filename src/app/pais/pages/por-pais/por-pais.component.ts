@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { PaisService } from '../../services/pais.service';
-import { Country, Name } from '../../interfaces/pais.interface';
+import { Country } from '../../interfaces/pais.interface';
 
 @Component({
   selector: 'app-por-pais',
