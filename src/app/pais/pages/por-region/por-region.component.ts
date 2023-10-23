@@ -14,21 +14,7 @@ import { PaisService } from '../../services/pais.service';
   ],
 })
 export class PorRegionComponent {
-  regiones: string[] = [
-    'EU',
-    'EFTA',
-    'CARICOM',
-    'PA',
-    'AU',
-    'USAN',
-    'EEU',
-    'AL',
-    'ASEAN',
-    'CAIS',
-    'CEFTA',
-    'NAFTA',
-    'SAARC',
-  ];
+  regiones: string[] = ['Europe', 'Americas', 'Africa', 'Oceania', 'Asia'];
   regionActiva: string = '';
   paises: Country[] = [];
 
